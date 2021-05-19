@@ -1,6 +1,7 @@
 package com.company;
 
 public class mtodwithMultipleParam {
+    //The void keyword, used below, indicates that the method should not return a value.
     static void info(String name, int age, String nationality){
         System.out.println(name +" is "+age +" and from "+nationality);
     }
