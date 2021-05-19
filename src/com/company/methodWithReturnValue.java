@@ -1,13 +1,14 @@
 package com.company;
 
 public class methodWithReturnValue {
-    //If you want the method to return a value, you can use a primitive data type (such as int, char, etc.) ...
-    //...instead of void, and use the return keyword inside the method
+   //You can also store the result in a variable (recommended, as it is easier to read and maintain):
     static int add(int x, int y){
         return x + y;
     }
 
     public static void main(String[] args) {
-        System.out.println(add(15,10));
+        int z=add(15,10) ;
+        System.out.println("The value of z is "+z);
+
     }
 }
